@@ -5,5 +5,5 @@ FacebookAds SDK for .NET makes interaction with the Facebook Ads API making inte
 
 This code base depends on the following libraries:
 
-  1) Facebook C# SDK
-  2) Newtonsoft JSON Library
+  1) Facebook C# SDK <br/>
+  2) Newtonsoft JSON Library <br/>
