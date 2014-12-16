@@ -1,0 +1,11 @@
+$font-stack: Tahoma, Arial;
+
+body {
+    font: $font-stack;
+}
+
+section {
+    background-color: gray;
+    border-style: dotted;
+    width: 100%;
+}

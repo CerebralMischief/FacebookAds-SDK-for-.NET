@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AF35F04C-B000-4624-9408-FA2355594F14}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\TestMasterIndex.html = Tests\TestMasterIndex.html
+		Tests\Tests.css = Tests\Tests.css
+		Tests\Tests.min.css = Tests\Tests.min.css
+		Tests\Tests.scss = Tests\Tests.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestLists", "TestLists", "{6B30EC00-41E3-460C-B9F5-B95188063699}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\TestLists\AdsSdkCoreTestList.html = Tests\TestLists\AdsSdkCoreTestList.html
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codejockey.FacebookAdsSdk.Tests.Core", "Tests\codejockey.FacebookAdsSdk.Tests.Core\codejockey.FacebookAdsSdk.Tests.Core.csproj", "{7B608C69-692E-49DA-957C-02DFD4F4F5B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FA3D62E-1A46-4AC1-BC79-8159A8BF37D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codejockey.FacebookAdsSdk.Core", "codejockey.FacebookAdsSdk.Core\codejockey.FacebookAdsSdk.Core.csproj", "{4D516174-96FD-4C2E-8914-4FE3FB7CE1A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B608C69-692E-49DA-957C-02DFD4F4F5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B608C69-692E-49DA-957C-02DFD4F4F5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B608C69-692E-49DA-957C-02DFD4F4F5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B608C69-692E-49DA-957C-02DFD4F4F5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D516174-96FD-4C2E-8914-4FE3FB7CE1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D516174-96FD-4C2E-8914-4FE3FB7CE1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D516174-96FD-4C2E-8914-4FE3FB7CE1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D516174-96FD-4C2E-8914-4FE3FB7CE1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B30EC00-41E3-460C-B9F5-B95188063699} = {AF35F04C-B000-4624-9408-FA2355594F14}
+		{7B608C69-692E-49DA-957C-02DFD4F4F5B0} = {AF35F04C-B000-4624-9408-FA2355594F14}
+	EndGlobalSection
+EndGlobal
